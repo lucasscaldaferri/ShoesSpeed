@@ -1,0 +1,254 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0 auto;
+    background-image: url(../imgs/banner.jpg);
+    background-position: top;
+    background-repeat: repeat-x;
+    max-width: 100%;
+    width: 1920px;
+    background-size: contain;
+}
+
+header,
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    box-sizing: border-box;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 15px;
+    transition: all 0.5s;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #061B4A;
+    font-size: 1rem;
+
+
+
+}
+
+nav ul li:hover {
+    transform: translateY(-10px);
+
+
+
+}
+
+main {
+    margin-top: 120px;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    display: flex;
+
+}
+
+.box {
+    display: flex;
+    align-items: flex-end;
+    margin-top: -265px;
+    gap: 75px;
+    margin-left: 107px;
+}
+
+.boxtext {
+    text-align: right;
+    font-family: sans-serif;
+    color: #061B4A;
+    margin-bottom: 75px;
+    max-width: 999px;
+    width: 100%;
+
+}
+
+.boxtext h1 {
+    font-size: 76px;
+    display: block;
+    margin-bottom: -3px;
+
+}
+
+.boxtext p {
+    font-size: 18px;
+}
+
+.car {
+    box-sizing: border-box;
+    padding: 50px 40px;
+    opacity: 1;
+    border-radius: 17px;
+    box-shadow: 0px 11px 6px rgb(226, 215, 215);
+    background: #FFFFFF;
+    height: 570px;
+    font-size: 18px;
+    width: 494px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.car img {
+    padding: 15px;
+    text-align: center;
+
+}
+
+.box1 {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    margin-top: 10px;
+
+}
+
+button {
+    width: 149px;
+    padding: 20px;
+    border: 2px solid #31E2F3;
+    margin-top: 10px;
+    background-color: #FFFFFF;
+
+}
+
+button a {
+    text-decoration: none;
+    color: #061B4A;
+    font-size: 18px;
+}
+
+.valor {
+    font-family: sans-serif;
+    color: #c1c1c1;
+    
+
+}
+
+.valor span:last-child {
+    color: #000;
+
+}
+
+.mobile {
+    display: none;
+}
+
+.nike {
+    max-width: 100%;
+    height: auto;
+}
+
+.risco {
+    display: none;
+}
+
+
+
+
+@media screen and (max-width: 390px) {
+
+    body {
+        background-image: url(../imgs/Grupo\ 2.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+
+
+
+    }
+
+    .mobile {
+        display: flex;
+        margin-top: 30px;
+        margin-left: 50px;
+        width: 78%;
+    }
+
+
+
+
+    .logo,
+    nav,
+    .tenis {
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+        gap: 14px;
+        margin-top: 19px;
+    }
+
+    main,
+    header {
+        width: 100%;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .boxtext {
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+        text-align: right;
+
+    }
+
+    .boxtext h1 {
+        font-size: 60px;
+    }
+
+    .boxtext p {
+        font-size: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .car {
+        padding: 0;
+        max-width: 330px;
+        height: 495px;
+        font-size: 13px;
+        margin-bottom: 50px;
+        margin-top: 45px;
+    }
+
+    .risco {
+        display: block;
+        margin-top: 40px;
+        margin-left: 339px;
+    }
+
+
+
+
+
+
+
+}
